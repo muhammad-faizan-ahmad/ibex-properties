@@ -24,12 +24,11 @@ export default function Gallery({ images }: Props) {
               src={img}
               alt=""
               fill
-              objectFit="cover"
               className={`border ${
                 i === index
                   ? "border-2 border-gray-600 dark:border-gray-300"
                   : "border-none"
-              } cursor-pointer transition duration-300 ease-in-out`}
+              } object-cover cursor-pointer transition duration-300 ease-in-out`}
               onMouseEnter={() => setIndex(i)}
             />
           </div>
