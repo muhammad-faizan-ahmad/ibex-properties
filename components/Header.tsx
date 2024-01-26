@@ -19,7 +19,7 @@ export default function Header() {
           />
         </div>
         <div className="hidden md:inline-flex items-center space-x-4">
-          <Link href="/buy-properties-uae">Buy</Link>
+          <Link href="/buy-properties-uae-dubai">Buy</Link>
           <Link href="/rent-properties-uae-dubai">Rent</Link>
           <Link href="/blog">Blog</Link>
         </div>
