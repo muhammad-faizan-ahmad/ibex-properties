@@ -21,7 +21,7 @@ export const revalidate = 60;
 
 export async function generateStaticParams() {
   const query = groq`
-    *[_type=="properties" references(*[_type == "category" && title == "Buy"]._id)] {
+    *[_type=="properties" && references(*[_type == "category" && title == "Buy"]._id)] {
       slug
     }`;
 
