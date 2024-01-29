@@ -115,7 +115,7 @@ export default async function FeaturedProperty({
             </div>
           </div>
 
-          <div className="mt-8 lg:mt-0 max-h-fit w-full max-w-xl mx-auto ring-2 ring-gray-600 dark:ring-gray-300 shadow-lg p-6 rounded-lg">
+          <div className="mt-8 lg:mt-0 w-full max-w-xl mx-auto ring-2 ring-gray-600 dark:ring-gray-300 shadow-lg p-6 rounded-lg">
             {/* PROPERTY PRICE */}
             <h2 className="text-2xl font-bold mb-4 text-center">Price</h2>
             <p className="text-3xl text-center text-red-600 font-bold">
@@ -127,19 +127,19 @@ export default async function FeaturedProperty({
             {/* PROPERTY CONTACT DETAILS */}
             <div className="flex items-center justify-center space-x-6">
               <div>
-                <Link href="">
+                <Link href="tel:971566840818">
                   <MdCall className="text-3xl text-red-600 hover:text-red-500" />
                 </Link>
               </div>
 
               <div>
-                <Link href="">
+                <Link href="https://api.whatsapp.com/send?phone=971566840818">
                   <MdWhatsapp className="text-3xl text-green-500 hover:text-green-400" />
                 </Link>
               </div>
 
               <div>
-                <Link href="">
+                <Link href="mailto:zohaibgg222@gmail.com">
                   <MdEmail className="text-3xl text-blue-500 hover:text-blue-400" />
                 </Link>
               </div>

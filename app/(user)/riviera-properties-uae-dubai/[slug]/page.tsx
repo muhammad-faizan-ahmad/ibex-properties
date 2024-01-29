@@ -127,19 +127,19 @@ export default async function RivieraProperty({
             {/* PROPERTY CONTACT DETAILS */}
             <div className="flex items-center justify-center space-x-6">
               <div>
-                <Link href="">
+                <Link href="tel:971566840818">
                   <MdCall className="text-3xl text-red-600 hover:text-red-500" />
                 </Link>
               </div>
 
               <div>
-                <Link href="">
+                <Link href="https://api.whatsapp.com/send?phone=971566840818">
                   <MdWhatsapp className="text-3xl text-green-500 hover:text-green-400" />
                 </Link>
               </div>
 
               <div>
-                <Link href="">
+                <Link href="mailto:zohaibgg222@gmail.com">
                   <MdEmail className="text-3xl text-blue-500 hover:text-blue-400" />
                 </Link>
               </div>
